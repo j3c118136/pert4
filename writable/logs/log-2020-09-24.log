@@ -1,0 +1,21 @@
+CRITICAL - 2020-09-24 08:48:22 --> Invalid file: hello.php
+#0 E:\WEB\app\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hello.php')
+#1 E:\WEB\app\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('hello', Array, true)
+#2 E:\WEB\app\app\Controllers\Mahasiswa.php(10): view('hello')
+#3 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Mahasiswa->ucapan()
+#4 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#5 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\WEB\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\WEB\app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\app\\publ...')
+#8 {main}
+CRITICAL - 2020-09-24 09:15:24 --> syntax error, unexpected 'echo' (T_ECHO), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 E:\WEB\app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('E:\\WEB\\app\\app\\...')
+#1 E:\WEB\app\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 E:\WEB\app\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\WEB\app\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\WEB\app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('E:\\WEB\\app\\publ...')
+#9 {main}
